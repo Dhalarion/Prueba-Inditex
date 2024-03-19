@@ -6,6 +6,6 @@ CREATE TABLE prices (
     price_List integer not null,
     product_Id integer not null,
     priority integer not null,
-    price decimal not null,
+    price decimal(10,2) not null,
     curr varchar not null
 );
